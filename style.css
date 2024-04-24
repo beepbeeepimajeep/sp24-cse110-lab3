@@ -3,6 +3,7 @@
     --myPink: #e180bd;
   }
 h4 {
+    /*css fallback value*/		
     color: var(--myPink, --myGreen); 
 
     /*added margin shorthand */
