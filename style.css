@@ -1,19 +1,28 @@
 :root {
-    --myGreen: #53ac4e;
-    --myPink: #e180bd;
-  }
+  --myGreen: #53ac4e;
+  --myPink: #e180bd;
+}
 h4 {
 
-    /*css fallback value*/		
-    color: var(--myPink, --myGreen); 
-    /*added margin shorthand */
-    margin: 25px 50px 75px 100px
-	}
+  /*css fallback value*/		
+  color: var(--myPink, --myGreen); 
+  /*added margin shorthand */
+  margin: 25px 50px 75px 100px
+}
 nav {
-  background-color: lightblue;
-  /* added margin long hand */
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 20px;
+background-color: lightblue;
+/* added margin long hand */
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 20px;
+}
+
+/*added border margin and padding to image at top of page*/
+img {
+  width: 300px;
+  border: 15px solid rgb(167, 126, 32);
+  border-style: dashed;
+  padding: 50px;
+  margin: 20px;
 }
