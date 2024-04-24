@@ -1,4 +1,11 @@
-h1 {
-	color: orange;
-	text-align: center;
+:root {
+    --myGreen: #53ac4e;
+    --myPink: #e180bd;
+  }
+h4 {
+	color: var(--myPink, --myGreen); 
+	text-align: left;
 	}
+nav {
+  background-color: lightblue;
+}
