@@ -3,17 +3,16 @@
     --myPink: #e180bd;
   }
 h4 {
-    /*css fallback value*/		
-    color: var(--myPink, --myGreen); 
-
+	color: var(--myPink, --myGreen); 
+	text-align: left;
     /*added margin shorthand */
-    margin: 25px 50px 75px 100px
+    margin: 100px 150px 175px 100px
 	}
 nav {
-  background-color: lightblue;
+  background-color: rgb(227, 173, 230);
   /* added margin long hand */
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 150px;
-  margin-left: 20px;
+  margin-left: 80px;
 }
